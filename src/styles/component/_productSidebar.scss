@@ -1,0 +1,49 @@
+.productSidebar {
+  &__image {
+    height: 150px;
+    width: 150px;
+  }
+
+  &__subtitle {
+    text-align: center;
+    color: rgb(156, 154, 154);
+  }
+
+  &__title {
+    text-align: center;
+  }
+
+  &__details {
+    padding: 1.5rem;
+    border-bottom: 1px solid rgb(219, 219, 219);
+  }
+
+  &__tags {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgb(219, 219, 219);
+  }
+
+  &__tag {
+    font-size: 13px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+  }
+  &__options {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  &__options button {
+    margin: 0.5rem;
+    text-align: start;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+  }
+}

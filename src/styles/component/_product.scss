@@ -1,0 +1,16 @@
+.product {
+  &__content {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__sidebar {
+    background-color: white;
+    margin: 0.5rem;
+    width: 20vw;
+  }
+  &__visualization {
+    flex-grow: 2;
+  }
+}

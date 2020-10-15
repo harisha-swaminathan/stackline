@@ -1,0 +1,15 @@
+.header {
+  background-color: white;
+
+  &__content {
+    margin: 0 1rem;
+    display: flex;
+    align-content: row;
+  }
+  &__logo {
+    align-self: center;
+    width: 30px;
+    height: 30px;
+    margin: 0 0.5rem;
+  }
+}
